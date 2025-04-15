@@ -1,7 +1,7 @@
 variable "ecr_repo_name" {
   description = "Name of the ECR repository to store the Lambda image"
   type        = string
-  default     = "use-case-2"
+  default     = "ecr-repo"
 }
 
 variable "image_uri" {
